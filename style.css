@@ -90,26 +90,6 @@ button{
 #services:hover{
     border: 2px dotted blue;
 }
-#mp {
-    padding-top: 80px;
-    width: 100vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-}
-#mp2 {
-    width: 100vw;
-    margin-top: 25px;
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-}
 
 ol{
     list-style-type: decimal;
@@ -117,26 +97,23 @@ ol{
     
 }
 
-#mimg {
-    background-image: url(image2.jpg);
+#mp {
+    background-image: url(mainimg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width: 600px;
+    height: 40ch;
+    width: 100vw;
     background-size: cover;
+    padding-top: 80px;
+    width: 100vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
     display: inline-block;
-    margin-right: 45px;
-    
-}
-#mimg2 {
-    background-image: url(mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    width: 600px;
-    background-size: cover;
-    display: inline-block;
-    margin-left: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
 
 }
 
@@ -229,13 +206,20 @@ footer{
     
 }
 #ai{
-    padding-top: 80px;
+    background-image: url(bgo.jpg);
+    color: white;
+    background-size: 100vw;
+
+}
+#aboutp{
+    padding-top: 125px;
 }
  
 #gal1{
     margin-top: 80px;
     height: 325px;
     width: 500px;
+    margin-right: 300px;
 
 }
 #gal2{
@@ -246,6 +230,7 @@ footer{
 #gal3{
     height: 300px;
     width: 500px;
+    margin-right: 300px;
     
 }
 #gal4{
@@ -256,6 +241,7 @@ footer{
 #gal5{
     height: 300px;
     width: 500px;
+    margin-right: 300px;
     
 }
 #gal6{
@@ -264,7 +250,7 @@ footer{
 }
 
 form{
-    padding-bottom: 250px;
+    padding-bottom: 315px;
 }
 table{
     width: 500px;
@@ -288,4 +274,10 @@ td{
 #page5{
     padding-top: 80px;
     margin-right: 25px;
+}
+#os_body{
+    align-content: center;
+    background-image:url(bgo.jpg) ;
+    background-size: 100vw;
+    color: white;
 }
